@@ -1,0 +1,305 @@
+/*#intro{*/
+/*    height: calc(100vh - 4rem);*/
+/*    width: 100vw;*/
+/*    max-width: 75rem;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+
+/*.bg{*/
+/*    position: absolute;*/
+/*    top: -4rem;*/
+/*    right: 0;*/
+/*    z-index: -1;*/
+/*    object-fit: cover;*/
+/*    height: 100vh;            !* prof img height *!*/
+/*}*/
+
+/*.introContent{*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    padding: 2rem;*/
+/*    font-size: 3rem;*/
+/*    font-weight: 700;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.hello{*/
+/*    font-size: 1.75rem;*/
+/*    font-weight: 100;*/
+/*}*/
+
+/*.introName{*/
+/*    color: red;*/
+/*}*/
+
+/*.introPara{*/
+/*    font-size: medium;*/
+/*    font-weight: 100;*/
+/*}*/
+
+/*.btn{*/
+/*    background: white;*/
+/*    margin: 1rem 0;*/
+/*    padding: 0.75rem 2rem;*/
+/*    border: none;*/
+/*    border-radius: 2rem;*/
+/*}*/
+
+/*.btnImg{*/
+/*    object-fit: cover;*/
+/*    margin: 0 0.25rem;*/
+/*    height: 1rem;*/
+/*}*/
+
+                                            /*USING AI*/
+
+/*#intro {*/
+/*    height: calc(100vh - 4rem);*/
+/*    width: 100vw;*/
+/*    max-width: 75rem;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+
+/*.bg {*/
+/*    position: absolute;*/
+/*    top: -4rem;*/
+/*    right: 0;*/
+/*    z-index: -1;*/
+/*    object-fit: cover;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.introContent {*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    padding: 2rem;*/
+/*    font-size: 3rem;*/
+/*    font-weight: 700;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.hello {*/
+/*    font-size: 1.75rem;*/
+/*    font-weight: 100;*/
+/*}*/
+
+/*.introText {*/
+/*    font-size: 3rem;*/
+/*    line-height: 1.2;*/
+/*    margin: 1rem 0;*/
+/*}*/
+
+/*.introName {*/
+/*    color: red;*/
+/*}*/
+
+/*.introPara {*/
+/*    font-size: medium;*/
+/*    font-weight: 100;*/
+/*    max-width: 60%;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.btn {*/
+/*    background: white;*/
+/*    margin: 1rem 0;*/
+/*    padding: 0.75rem 2rem;*/
+/*    border: none;*/
+/*    border-radius: 2rem;*/
+/*    cursor: pointer;*/
+/*    display: inline-flex;*/
+/*    align-items: center;*/
+/*    font-size: 1rem;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*.btn:hover {*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+/*.btnImg {*/
+/*    object-fit: cover;*/
+/*    margin: 0 0.25rem;*/
+/*    height: 1rem;*/
+/*    width: auto;*/
+/*}*/
+
+/*!* Responsive Design *!*/
+/*@media screen and (max-width: 1024px) {*/
+/*    .bg {*/
+/*        right: -20%;*/
+/*    }*/
+
+/*    .introPara {*/
+/*        max-width: 70%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .bg {*/
+/*        right: -30%;*/
+/*    }*/
+
+/*    .introContent {*/
+/*        font-size: 2.5rem;*/
+/*    }*/
+
+/*    .hello {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+
+/*    .introPara {*/
+/*        max-width: 80%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 480px) {*/
+/*    .bg {*/
+/*        right: -60%;*/
+/*    }*/
+
+/*    .introContent {*/
+/*        font-size: 2rem;*/
+/*        padding: 1rem;*/
+/*    }*/
+
+/*    .hello {*/
+/*        font-size: 1.25rem;*/
+/*    }*/
+
+/*    .introPara {*/
+/*        max-width: 100%;*/
+/*    }*/
+
+/*    .btn {*/
+/*        padding: 0.6rem 1.5rem;*/
+/*    }*/
+/*}*/
+
+                                            /*REDOING*/
+
+
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introText {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+
+.introName {
+    color: red;
+}
+
+.introPara {
+    font-size: medium;     /* intropara size*/
+    font-weight: 300;
+    letter-spacing:1px ;
+    max-width: 60%;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: white;
+    color: black;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;  /* Button padding size */
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.btn:hover {
+    background: black;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Active (Click) Effect */
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Focus Effect */
+.btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    width: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bg{
+        right: -20vw;
+    }
+
+}
